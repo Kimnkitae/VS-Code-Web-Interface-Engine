@@ -1,0 +1,41 @@
+@import url(main.css);
+
+/* header */
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--header-bgd-color);
+    padding: 0.5rem;
+}
+
+.header-container {
+    display: flex;
+    gap: 15em;
+}
+
+.header-left {
+    display: flex;
+    gap: 1rem;
+}
+
+.header-menu__ul {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.header-menu__button {
+    color: var(--font-color);
+    border: none;
+    background-color: var(--header-bgd-color);
+    font-size: 0.8rem;
+}
+
+.header-search {
+    display: flex;
+}
+
+.input {
+    padding: 0 15em;
+    border: 1px solid #FFFFFF;
+}
