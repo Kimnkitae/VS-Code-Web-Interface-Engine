@@ -1,0 +1,119 @@
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25rem;
+    background-color: var(--header-bgd-color);
+}
+
+.header-container {
+    display: flex;
+    gap: 14.5rem;
+}
+
+.header-left {
+    display: flex;
+    gap: 1rem;
+}
+
+.header-menu__ul {
+    display: flex;
+}
+
+.header-menu__button {
+    color: var(--font-color);
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.2rem 0.5rem;
+    box-sizing: border-box;
+    background-color: var(--header-bgd-color);
+    font-size: 0.8rem;
+}
+
+.header-menu__button:hover {
+    background-color: var(--search-bgd-color);
+}
+
+.header-go__btn {
+    background-color: var(--header-bgd-color);
+    border: none;
+    opacity: 0.4;
+}
+
+.header-search {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.header-chat {
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+}
+
+.header-chat__button {
+    background-color: var(--header-bgd-color);
+    border: none;
+    padding: 0.1rem 0.1rem;
+    border-radius: 0.3rem;
+}
+
+.header-chat__button:hover {
+    background-color: var(--search-bgd-color);
+}
+
+.input {
+    padding: 0.15rem 16rem;
+    border: 1px solid var(--search-border-color);
+    border-radius: 0.25rem;
+    background-color: var(--search-bgd-color);
+    outline: none;
+}
+
+.input:hover {
+    background-color: var(--search-hover-color);
+    border: 1px solid var(--search-hover-border-color);
+}
+
+.input::placeholder {
+    color: var(--font-color);
+}
+
+.header-right {
+    display: flex;
+    gap: 1rem;
+}
+
+.header-right__menu {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.header-right__menu-btn {
+    background-color: var(--header-bgd-color);
+    border: none;
+    padding: 0.2rem 0.2rem;
+}
+
+.header-right__menu-sp {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.header-right__menu-btn-sp {
+    background-color: var(--header-bgd-color);
+    border: none;
+    padding: 0.1rem 0.1rem;
+    border-radius: 0.3rem;
+}
+
+.header-right__menu-btn-sp:hover {
+    
+    background-color: var(--header-menu-sp);
+}
+
+.header-right__menu-btn:hover {
+    background-color: var(--search-bgd-color);
+    border-radius: 0.3rem;
+}

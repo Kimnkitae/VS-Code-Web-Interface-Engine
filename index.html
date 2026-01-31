@@ -47,11 +47,11 @@
                     </div>
                     <div class="header-search">
                         <div class="header-go">
-                            <button>
-        
+                            <button class="header-go__btn header-go__left">
+                                <img src="assets/img/arrow-left.svg">
                             </button>
-                            <button>
-        
+                            <button class="header-go__btn header-go__right">
+                                <img src="assets/img/arrow-right.svg">
                             </button>
                         </div>
                         <div class="header-search__input">
@@ -59,11 +59,11 @@
                             <input class="input" type="text" placeholder="VS Code Web Interface Engine">
                         </div>
                         <div class="header-chat">
-                            <button>
-                                <img src="" alt="">
+                            <button class="header-chat__button">
+                                <img src="assets/img/chat.svg">
                             </button>
-                            <button>
-                                <img src="" alt="">
+                            <button class="header-chat__button">
+                                <img src="assets/img/arrow-down.svg">
                             </button>
                         </div>
                     </div>
@@ -71,11 +71,45 @@
 
 
                 <div class="header-right">
-                    <ul>
-
+                    <ul class="header-right__menu">
+                        <li>
+                            <button class="header-right__menu-btn">
+                                <img src="assets/img/customize.svg">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="header-right__menu-btn">
+                                <img src="assets/img/toggle-sidebar.svg">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="header-right__menu-btn">
+                                <img src="assets/img/toggle-panel.svg">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="header-right__menu-btn">
+                                <img src="assets/img/toggle-secondary-sidebar.svg">
+                            </button>
+                        </li>
                     </ul>
-                    <ul>
 
+                    <ul class="header-right__menu-sp">
+                        <li>
+                            <button class="header-right__menu-btn-sp">
+                                <img src="assets/img/minimize.svg">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="header-right__menu-btn-sp">
+                                <img src="assets/img/square.svg">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="header-right__menu-btn-sp">
+                                <img src="assets/img/close.svg">
+                            </button>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -135,6 +169,6 @@
             </div>
         </footer>
     </div>
-    <script src="scripts/script.js"></script>
+    <script type="module" src="scripts/script.js"></script>
 </body>
 </html>

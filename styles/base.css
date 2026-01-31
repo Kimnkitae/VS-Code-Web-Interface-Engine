@@ -7,10 +7,13 @@
 
 :root {
     --font-color: #F8F8F2;
+    --search-bgd-color: #383838;
+    --search-border-color: #5c5c5c;
+    --search-hover-color: #454545;
+    --header-menu-sp: #222222;
+    --search-hover-border-color: #727272;
     --background-color: #282A36;
-    --text-selection: #44475A;
-    --comment-color: #6272A4;
     --header-bgd-color: #262626;
     --sidebar-bgd-color: #363949;
-    --search-bgd-color: #333333;
+    
 }
